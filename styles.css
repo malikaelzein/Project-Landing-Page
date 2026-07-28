@@ -37,6 +37,7 @@ ul {
     display: flex;
     align-items: center;
     gap: 3rem;
+    padding-top: 5%;
 }
 
 .intro h1 {
@@ -133,7 +134,7 @@ font-style: italic;
 }
 
 .fourth-section {
-    padding: 15vh 20vw;
+    padding: 15vh 15vw;
 }
 
 .footer {
@@ -144,7 +145,7 @@ font-style: italic;
     align-items: center;
     border-radius: 10px;
     gap: 2rem;
-    padding: 2vh 4vw ;
+    padding: 2vh 7vw ;
     
 }
 
