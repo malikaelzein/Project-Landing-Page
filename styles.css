@@ -1,0 +1,158 @@
+body {
+    font-family: Roboto, sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.first-section {
+    background-color: #1F2937;
+    color: white;
+    padding: 1% 10% 10%;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    
+}
+
+.header ul {
+    gap: 1rem;
+    font-size: 15px;
+}
+
+.discription {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.intro h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+
+.intro p {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.intro {
+    flex: 1;
+    min-width: 0;
+}
+
+.intro button {
+    background-color: #3882F6;    
+    border-radius: 6px ;
+    width: 100px;
+    height: 30px;
+    border: 0;
+    color: white;
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.discription img {
+    max-width: 100%;
+    height: auto;
+    flex: 1;
+    min-width: 0;
+}
+
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5% ;
+}
+
+.images {
+    display: flex;
+   max-width: 70rem;
+}
+
+.images li {
+    flex: 1;
+    text-align: center;
+    
+}
+
+.images img {
+    max-width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.second-section h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight:900;
+}
+
+.third-section {
+    background-color: #E5E7EB; 
+    padding: 15vh 20vw; 
+}
+
+.quote , .author {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.quote {
+font-style: italic;
+}
+
+.author {
+    font-weight: 900;
+    text-align: end;
+}
+
+.fourth-section {
+    padding: 15vh 20vw;
+}
+
+.footer {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    gap: 2rem;
+    padding: 2vh 4vw ;
+    
+}
+
+.footer button {
+    width: 100px;
+    height: 30px;
+    border-radius: 0.5rem;
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+}
